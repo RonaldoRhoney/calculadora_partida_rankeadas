@@ -1,9 +1,12 @@
 let saldoDeRankeadas = derrotaseVitorias(0, 101); //o primeiro parâmetro é derrota o segundo, vitória 
 let nivelJogador = nivel(saldoDeRankeadas)
+var nome = "Rhoney"
+
 
 console.log("O Herói tem de saldo " + saldoDeRankeadas + " e está no nível de " + nivelJogador)
 
 function derrotaseVitorias(derrotas, vitorias){
+    console.log(nome)
     saldo = vitorias - derrotas
     return saldo
 }
